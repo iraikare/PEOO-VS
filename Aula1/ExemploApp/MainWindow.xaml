@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ExemploApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="150" Width="300">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="59*"/>
+        </Grid.RowDefinitions>
+        <Button Content="Button" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="45,10,0,0" Grid.Row="1" VerticalAlignment="Top" Click="Button_Click"/>
 
     </Grid>
 </Window>
