@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\20211011110005\\source\\repos\\PEOO-VS\\trabalhoWpf\\GeneroLivroApp\\GeneroLivroApp.csproj",
+      "projectUniqueName": "C:\\Users\\20211011110005\\Source\\Repos\\PEOO-VS\\trabalhoWpf\\GeneroLivroApp\\GeneroLivroApp.csproj",
       "projectName": "GeneroLivroApp",
-      "projectPath": "C:\\Users\\20211011110005\\source\\repos\\PEOO-VS\\trabalhoWpf\\GeneroLivroApp\\GeneroLivroApp.csproj",
+      "projectPath": "C:\\Users\\20211011110005\\Source\\Repos\\PEOO-VS\\trabalhoWpf\\GeneroLivroApp\\GeneroLivroApp.csproj",
       "packagesPath": "C:\\Users\\20211011110005\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\20211011110005\\source\\repos\\PEOO-VS\\trabalhoWpf\\GeneroLivroApp\\obj\\",
+      "outputPath": "C:\\Users\\20211011110005\\Source\\Repos\\PEOO-VS\\trabalhoWpf\\GeneroLivroApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\20211011110005\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

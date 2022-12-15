@@ -19,3 +19,4 @@ C:\Users\20211011110005\source\repos\PEOO-VS\trabalhoWpf\GeneroLivroApp\obj\Debu
 C:\Users\20211011110005\source\repos\PEOO-VS\trabalhoWpf\GeneroLivroApp\obj\Debug\net5.0-windows\ref\GeneroLivroApp.dll
 C:\Users\20211011110005\source\repos\PEOO-VS\trabalhoWpf\GeneroLivroApp\obj\Debug\net5.0-windows\GeneroLivroApp.pdb
 C:\Users\20211011110005\source\repos\PEOO-VS\trabalhoWpf\GeneroLivroApp\obj\Debug\net5.0-windows\GeneroLivroApp.genruntimeconfig.cache
+C:\Users\20211011110005\Source\Repos\PEOO-VS\trabalhoWpf\GeneroLivroApp\obj\Debug\net5.0-windows\GeneroLivroApp.csproj.AssemblyReference.cache
