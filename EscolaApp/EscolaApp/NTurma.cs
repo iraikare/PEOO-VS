@@ -20,6 +20,7 @@ namespace EscolaApp
         }
         public static List<Turma> Listar()
         {
+            Abrir();
             return turmas;
         }
         public static void Atualizar(Turma t)
@@ -37,10 +38,12 @@ namespace EscolaApp
 
         public static void Excluir(Turma t)
         {
+            Abrir();
             Turma x = null;
             foreach (Turma obj in turmas)
                 if (obj.Id == t.Id) x = obj;
             if (x != null) turmas.Remove(x);
+            Salvar();
         }
         public static void Abrir()
         {

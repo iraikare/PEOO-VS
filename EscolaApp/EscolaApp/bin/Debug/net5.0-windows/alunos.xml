@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAluno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Aluno>
+    <Id>3</Id>
+    <Nome>sla</Nome>
+    <Matricula>sdksnk</Matricula>
+    <Email>sshj</Email>
+    <IdTurma>0</IdTurma>
+  </Aluno>
+</ArrayOfAluno>
