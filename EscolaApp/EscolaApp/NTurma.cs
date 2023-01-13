@@ -15,6 +15,10 @@ namespace EscolaApp
         private static List<Turma> turmas = new List<Turma>();
         public static void Inserir(Turma t) {
             Abrir();
+            int id = 0;
+            foreach (Turma obj in turmas)
+                if (obj.Id > id) id = obj.Id;
+            t.Id = id + 1;
             turmas.Add(t);
             Salvar();
         }

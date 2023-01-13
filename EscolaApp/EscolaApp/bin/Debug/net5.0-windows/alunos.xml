@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfAluno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Aluno>
-    <Id>3</Id>
-    <Nome>sla</Nome>
-    <Matricula>sdksnk</Matricula>
-    <Email>sshj</Email>
-    <IdTurma>0</IdTurma>
+    <Id>11</Id>
+    <Nome>iraikare</Nome>
+    <Matricula>2021101111005</Matricula>
+    <Email>irai.com.br</Email>
+    <IdTurma>2</IdTurma>
   </Aluno>
 </ArrayOfAluno>
