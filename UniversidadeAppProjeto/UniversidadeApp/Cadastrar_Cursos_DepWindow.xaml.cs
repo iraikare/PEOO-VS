@@ -23,5 +23,15 @@ namespace UniversidadeApp
         {
             InitializeComponent();
         }
+
+        private void ListarClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void CadastrarClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

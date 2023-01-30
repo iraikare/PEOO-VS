@@ -23,5 +23,30 @@ namespace UniversidadeApp
         {
             InitializeComponent();
         }
+
+        private void InserirClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ListarClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void AtualizarClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ExcluirClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void listDepartamentos_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

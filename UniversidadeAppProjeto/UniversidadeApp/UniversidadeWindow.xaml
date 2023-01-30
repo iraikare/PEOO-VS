@@ -7,17 +7,17 @@
         mc:Ignorable="d"
         Title="UniversidadeWindow" Height="400" Width="600">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="21,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Id:"/></TextBlock>
-        <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="21,39,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
-        <TextBlock HorizontalAlignment="Left" Margin="67,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="N"/><Run Text="o"/><Run Language="pt-br" Text="me"/></TextBlock>
-        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="67,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="193,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Sigl"/><Run Text="a"/></TextBlock>
-        <TextBox x:Name="txtSigla" HorizontalAlignment="Left" Margin="193,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-       
-        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="21,68,0,0" VerticalAlignment="Top"/>
-        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="67,68,0,0" VerticalAlignment="Top"/>
-        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="107,68,0,0" VerticalAlignment="Top"/>
-        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="166,68,0,0" VerticalAlignment="Top"/>
-        <ListBox x:Name="listUniversidades" Margin="21,102,17,10" SelectionChanged="listTurmas_SelectionChanged"/>
+        <TextBlock FontSize="20"  HorizontalAlignment="Left" Margin="21,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Id:"/></TextBlock>
+        <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="20,58,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="65" Height="30"/>
+        <TextBlock FontSize="20" HorizontalAlignment="Left" Margin="104,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Nome:"/></TextBlock>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="102,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="30"/>
+        <TextBlock FontSize="20" HorizontalAlignment="Left" Margin="239,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Sigla:"/></TextBlock>
+        <TextBox x:Name="txtSigla" HorizontalAlignment="Center" Margin="0,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="30"/>
+
+        <Button FontSize="20" Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="23,115,0,0" VerticalAlignment="Top"/>
+        <Button FontSize="20" Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="101,115,0,0" VerticalAlignment="Top"/>
+        <Button FontSize="20" Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="170,115,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.012,0.753"/>
+        <Button FontSize="20" Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="266,115,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.231,0.557"/>
+        <ListBox x:Name="listUniversidades" Margin="22,168,16,10" SelectionChanged="listUniversidades_SelectionChanged"/>
     </Grid>
 </Window>

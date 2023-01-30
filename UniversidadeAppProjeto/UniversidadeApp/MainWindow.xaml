@@ -15,8 +15,6 @@
         <Button Content="Listar Departamentos da Universidade" HorizontalAlignment="Left" Height="35" Margin="269,217,0,0" VerticalAlignment="Top" Width="248" Click="list_dep_Click"/>
         <Button Content="Listar Cursos do Departamento" HorizontalAlignment="Left" Height="35" Margin="269,266,0,0" VerticalAlignment="Top" Width="248" Click="list_curso_Click"/>
         <TextBlock FontSize="25" HorizontalAlignment="Left" Height="38" Margin="64,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"><Run Language="pt-br" Text="Cadastros"/></TextBlock>
-        <TextBlock FontSize="25" HorizontalAlignment="Left" Height="38" Margin="64,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"><Run Language="pt-br" Text="Cadastros"/></TextBlock>
-        <TextBlock FontSize="25" HorizontalAlignment="Left" Height="38" Margin="64,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"><Run Language="pt-br" Text="Cadastros"/></TextBlock>
         <TextBlock FontSize="25" HorizontalAlignment="Left" Height="38" Margin="269,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"><Run Language="pt-br" Text="Operações"/></TextBlock>
     </Grid>
 </Window>
