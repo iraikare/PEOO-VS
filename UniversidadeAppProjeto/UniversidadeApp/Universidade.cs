@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UniversidadeApp
 {
-    class Universidade
+    public class Universidade
     {
         public int Id { get; set; }
         public string Nome { get; set; }

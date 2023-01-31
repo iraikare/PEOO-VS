@@ -26,27 +26,47 @@ namespace UniversidadeApp
 
         private void InserirClick(object sender, RoutedEventArgs e)
         {
-
+            Universidade u = new Universidade();
+            u.Id = int.Parse(txtId.Text);
+            u.Nome = txtNome.Text;
+            u.Sigla = txtSigla.Text;
+            NUniversidades.Inserir(u);
+            ListarClick(sender, e);
         }
 
         private void ListarClick(object sender, RoutedEventArgs e)
         {
-
+            listUniversidades.ItemsSource = null;
+            listUniversidades.ItemsSource = NUniversidades.Listar();
         }
 
         private void AtualizarClick(object sender, RoutedEventArgs e)
         {
-
+            Universidade u = new Universidade();
+            u.Id = int.Parse(txtId.Text);
+            u.Nome = txtNome.Text;
+            u.Sigla = txtSigla.Text;
+            NUniversidades.Atualizar(u);
+            ListarClick(sender, e);
         }
 
         private void ExcluirClick(object sender, RoutedEventArgs e)
         {
-
+            Universidade u = new Universidade();
+            u.Id = int.Parse(txtId.Text);
+            NUniversidades.Excluir(u);
+            ListarClick(sender, e);
         }
 
         private void listUniversidades_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            if (listUniversidades.SelectedItem != null)
+            {
+                Universidade obj = (Universidade)listUniversidades.SelectedItem;
+                txtId.Text = obj.Id.ToString();
+                txtNome.Text = obj.Nome;
+                txtSigla.Text = obj.Sigla;
+            }
         }
     }
 }

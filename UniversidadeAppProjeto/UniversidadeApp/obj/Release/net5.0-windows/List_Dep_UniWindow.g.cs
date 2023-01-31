@@ -69,7 +69,7 @@ namespace UniversidadeApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/UniversidadeApp;component/list_dep_uniwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/UniversidadeApp_e5ca3eye_wpftmp;component/list_dep_uniwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\List_Dep_UniWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

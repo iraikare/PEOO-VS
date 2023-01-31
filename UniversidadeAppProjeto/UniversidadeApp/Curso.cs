@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace UniversidadeApp
 {
-    class Curso
+    public class Curso
     {
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Duracao { get; set; }
-        public int Codigo { get; set; }
+        public string Codigo { get; set; }
         public int IdDepartamento { get; set; }
         public override string ToString()
         {
