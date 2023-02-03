@@ -22,11 +22,19 @@ namespace UniversidadeApp
         public List_Dep_UniWindow()
         {
             InitializeComponent();
+            listUniversidades.ItemsSource = NUniversidades.Listar();
         }
 
         private void ListarClick(object sender, RoutedEventArgs e)
         {
-
+            if (listUniversidades.SelectedItem != null)
+            {
+                Universidade u = (Universidade)listUniversidades.SelectedItem;
+                listDepartamentos.ItemsSource = null;
+                listDepartamentos.ItemsSource = NDepartamento.Listar(u);
+            }
+            else
+                MessageBox.Show("É preciso selecionar uma Universidade");
         }
     }
 }

@@ -26,12 +26,25 @@ namespace UniversidadeApp
 
         private void ListarClick(object sender, RoutedEventArgs e)
         {
-
+            listDepartamentos.ItemsSource = null;
+            listDepartamentos.ItemsSource = NDepartamento.Listar();
+            listCursos.ItemsSource = null;
+            listCursos.ItemsSource = NCurso.Listar();
         }
 
         private void CadastrarClick(object sender, RoutedEventArgs e)
         {
-
+            if (listDepartamentos.SelectedItem != null && listCursos.SelectedItem != null)
+            {
+                Curso c = (Curso)listCursos.SelectedItem;
+                Departamento d = (Departamento)listDepartamentos.SelectedItem;
+                NCurso.CadastrarCurso(c, d);
+                ListarClick(sender, e);
+            }
+            else
+            {
+                MessageBox.Show("É preciso selecionar um curso e um departamento");
+            }
         }
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iraikare\\Source\\Repos\\PEOO-VS\\UniversidadeAppProjeto\\UniversidadeApp\\UniversidadeApp.csproj": {}
+    "C:\\Users\\20211011110005\\Source\\Repos\\PEOO-VS\\UniversidadeAppProjeto\\UniversidadeApp\\UniversidadeApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iraikare\\Source\\Repos\\PEOO-VS\\UniversidadeAppProjeto\\UniversidadeApp\\UniversidadeApp.csproj": {
+    "C:\\Users\\20211011110005\\Source\\Repos\\PEOO-VS\\UniversidadeAppProjeto\\UniversidadeApp\\UniversidadeApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iraikare\\Source\\Repos\\PEOO-VS\\UniversidadeAppProjeto\\UniversidadeApp\\UniversidadeApp.csproj",
+        "projectUniqueName": "C:\\Users\\20211011110005\\Source\\Repos\\PEOO-VS\\UniversidadeAppProjeto\\UniversidadeApp\\UniversidadeApp.csproj",
         "projectName": "UniversidadeApp",
-        "projectPath": "C:\\Users\\Iraikare\\Source\\Repos\\PEOO-VS\\UniversidadeAppProjeto\\UniversidadeApp\\UniversidadeApp.csproj",
-        "packagesPath": "C:\\Users\\Iraikare\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iraikare\\Source\\Repos\\PEOO-VS\\UniversidadeAppProjeto\\UniversidadeApp\\obj\\",
+        "projectPath": "C:\\Users\\20211011110005\\Source\\Repos\\PEOO-VS\\UniversidadeAppProjeto\\UniversidadeApp\\UniversidadeApp.csproj",
+        "packagesPath": "C:\\Users\\20211011110005\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\20211011110005\\Source\\Repos\\PEOO-VS\\UniversidadeAppProjeto\\UniversidadeApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Iraikare\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\20211011110005\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
         }
       }
     }

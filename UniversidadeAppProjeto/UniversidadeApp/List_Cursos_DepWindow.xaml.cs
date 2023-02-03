@@ -22,11 +22,19 @@ namespace UniversidadeApp
         public List_Cursos_DepWindow()
         {
             InitializeComponent();
+            listDepartamentos.ItemsSource = NDepartamento.Listar();
         }
 
         private void ListarClick(object sender, RoutedEventArgs e)
         {
-
+            if (listDepartamentos.SelectedItem != null)
+            {
+                Departamento d = (Departamento)listDepartamentos.SelectedItem;
+                listCursos.ItemsSource = null;
+                listCursos.ItemsSource = NCurso.Listar(d);
+            }
+            else
+                MessageBox.Show("É preciso selecionar um Departamento");
         }
     }
 }
